@@ -1,0 +1,15 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<SelectDialog
+		id="selectDialog"
+		title="Purchase Order"
+		items="{Purchase>/}"
+		search=".onValueHelpSearch"
+		confirm=".onValueHelpClose"
+		cancel=".onValueHelpClose">
+		<items>
+		<StandardListItem
+			title="{Purchase>Ebeln}" />
+			 
+			</items>
+	</SelectDialog>
+</core:FragmentDefinition>

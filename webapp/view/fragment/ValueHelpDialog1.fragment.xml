@@ -1,0 +1,15 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<SelectDialog
+		id="selectDialog1"
+		title="Materials"
+		items="{material>/}"
+		search=".onValueHelpSearch1"
+		confirm=".onValueHelpClose1"
+		cancel=".onValueHelpClose1">
+		<items>
+		<StandardListItem
+			title="{material>Matnr}" 
+			 />
+			</items>
+	</SelectDialog>
+</core:FragmentDefinition>
